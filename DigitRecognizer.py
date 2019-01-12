@@ -8,7 +8,7 @@ import numpy as np
 import cv2
 
 # Reading in the Train png and making a copy
-im =  cv2.imread('tiu_train.png')
+im =  cv2.imread('Images/Train/tiu_train.png')
 im_copy = im.copy()
 
 ## Drawing Contours

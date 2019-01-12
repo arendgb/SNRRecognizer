@@ -11,7 +11,7 @@ model = cv2.ml.KNearest_create()
 model.train(samples,cv2.ml.ROW_SAMPLE, responses)
 
 ## Testing
-im = cv2.imread('validate_2.png')
+im = cv2.imread('Images/Test/validate_2.png')
 out = np.zeros(im.shape,np.uint8)
 gray = cv2.cvtColor(im,cv2.COLOR_BGR2GRAY)
 thresh = cv2.adaptiveThreshold(gray,255,1,1,11,2)
