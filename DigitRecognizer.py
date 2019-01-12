@@ -64,6 +64,5 @@ np.savetxt('generalresponses.data',responses)
 
 
 
-
 ### Preparing the data for training ###
 ## https://stackoverflow.com/questions/9413216/simple-digit-recognition-ocr-in-opencv-python  ##
