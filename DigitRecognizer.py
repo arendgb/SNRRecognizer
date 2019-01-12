@@ -1,3 +1,8 @@
+# Using Python 3.6.5
+# Using OpenCV 4.0.0
+# Using Numpy 1.15.4
+# Using macOS 10.14.1
+
 import sys
 import numpy as np
 import cv2
