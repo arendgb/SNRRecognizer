@@ -7,7 +7,7 @@ SNR Recognizer was created as an assignment involving 1 or modules. SNR Recogniz
 SNR Recognizer is built upon Python and uses OpenCV in combination with the K-Nearest feature to track and identify the numbers within the image provided. It has a GUI interface for easy usage where it is possible to select one or more images of Student IDs. 
 
 ## Basic Usage ##
-** Train the classifier **
+**Train the classifier**
 ```
 python Classifier_train.py
 ```
@@ -24,7 +24,7 @@ A new window will pop up showing a GUI program. Please note that it currently do
 
 The Student IDs will be shown on the screen. We have included validation images in the folder /Resources/Images/Test-images to perform the model on these images. With these images the model is 100% accurate, it currently isn't accurate with other student id photos. 
 
-Resources used for the project:
+**Resources used for the project:**
 
 OCR Digit Recognition with OpenCV and Python
 https://stackoverflow.com/questions/9413216/simple-digit-recognition-ocr-in-opencv-python
