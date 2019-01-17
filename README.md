@@ -1,5 +1,7 @@
 # SNRRecognizer #
 
+The project uses Python 3.6.5, OpenCV 4.0.0 and Numpy 1.15.4
+
 ## Introduction ## 
 
 SNR Recognizer was created as an assignment involving 1 or modules. SNR Recognizer is a new way for reading in Student IDs and being able to use the extracted Student Number (SNR) as a way to track Attendance or give access to specific areas (such as Libary or Workplace). 
