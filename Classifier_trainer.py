@@ -8,7 +8,8 @@ import numpy as np
 import cv2
 
 # Reading in the Train png and making a copy
-im =  cv2.imread('Images/Train/tiu_train.png')
+im = cv2.imread('Resources/Images/Train-image/tiu_train.png')
+print(im)
 im_copy = im.copy()
 
 ## Drawing Contours
@@ -31,9 +32,9 @@ keys = [i for i in range(48,58)]
 
 print(contours)
 
-for cont in contours:
-    if cv2.contourArea(cont)>50:
-        [x,y,w,h] = cv2.boundingRect(cont)
+for contour in contours:
+    if cv2.contourArea(contour)>50:
+        [x,y,w,h] = cv2.boundingRect(contour)
 
         if h>28:
             cv2.rectangle(im,(x,y),(x+w,y+h),(0,0,255),2)
@@ -54,8 +55,8 @@ responses = responses.reshape((responses.size),1)
 print("Training complete!")
 
 
-np.savetxt('generalsamples.data',samples)
-np.savetxt('generalresponses.data',responses)
+np.savetxt('Trained-data/generalsamples.data',samples)
+np.savetxt('Trained-data/generalresponses.data',responses)
 
 
 
