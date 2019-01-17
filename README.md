@@ -27,13 +27,16 @@ The Student IDs will be shown on the screen. We have included validation images 
 **Resources used for the project:**
 
 OCR Digit Recognition with OpenCV and Python
+
 https://stackoverflow.com/questions/9413216/simple-digit-recognition-ocr-in-opencv-python
 https://medium.com/@gsari/digit-recognition-with-opencv-and-python-cbf962f7e2d0
 
 OpenCV documentation/tutorials
+
 https://docs.opencv.org/3.0.0/d4/d73/tutorial_py_contours_begin.html (Contours)
 https://media.readthedocs.org/pdf/opencv-python-tutroals/latest/opencv-python-tutroals.pdf (page 99)
 
 Tkinter
+
 https://www.python-course.eu/python_tkinter.php
 https://tkdocs.com/tutorial/ 
