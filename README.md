@@ -1,9 +1,8 @@
 # SNRRecognizer
 
 - [x] Basic functionality
-- [ ] Linking both .py scripts
-- [ ] Creating the GUI
-- [ ] Integrating in GUI
+- [X] Creating the GUI
+- [X] Integrating in GUI
 - [ ] Bug hunting
 
 
