@@ -54,10 +54,10 @@ def getId():
                     cv2.putText(out,string,(x,y+h),0,1,(0,255,0))
                     student_id.append(string)
 
-        # Removing the mistaken numbers (J, D), reversing the list to the correct sequence
+        # Removing the mistaken numbers (J, D) by slicing the student_id, reversing the list to the correct sequence
         # Joining the list to create a string instead of list
-        student_id = student_id[0:10]
         student_id.reverse()
+        student_id = student_id[3:]
         student_id = "".join(student_id)
 
         # Inserting id's to textbox on GUI
