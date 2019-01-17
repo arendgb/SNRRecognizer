@@ -76,7 +76,7 @@ select_img_btn.pack()
 select_img_btn.place(x=10,y=400)
 select_img_btn.config(font=("",16))
 
-get_id_btn = tk.Button(root, text=" Get Id's ", command=getId)
+get_id_btn = tk.Button(root, text=" Get ID ", command=getId)
 get_id_btn.pack()
 get_id_btn.place(x=200,y=400)
 get_id_btn.config(font=("",16))
